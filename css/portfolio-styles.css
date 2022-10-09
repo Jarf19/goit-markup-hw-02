@@ -1,0 +1,165 @@
+body {
+    color: #757575;
+    font-family: 'Roboto', 'Helvetica Neue','Verdana','Tahoma',
+        sans-serif;
+    background-color: #F5F5F5;
+
+}
+
+
+/* header*/
+header {
+    background-color: #FFFFFF;
+
+}
+
+.logo {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+.logo:hover,
+:focus {
+    color: #2196F3;
+}
+
+
+.logo,
+.logo-one {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: (31/26)
+}
+
+.logo-one {
+    color: #2196F3;
+    text-decoration-line: none;
+}
+
+.logo-one:hover,
+:focus {
+    color: #2196F3;
+}
+
+.header-list {
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: (16/14);
+    text-decoration-line: none;
+}
+
+.header-list:hover {
+    color: #2196F3;
+}
+
+.header-list:focus {
+    color: #2196F3;
+}
+
+.link-maito,
+.link-tel {
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: (16/14);
+    text-decoration-line: none;
+}
+
+.link-maito:hover,
+:focus {
+    color: #2196F3;
+}
+
+.link-tel:hover,
+:focus {
+    color: #2196F3;
+}
+
+/* main*/
+.button-list{
+    background-color: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6px;
+    text-align: center;   
+}
+
+
+
+.menue-list {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.menue-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,9;
+}
+
+
+
+
+/* footer*/
+
+footer {
+    background-color: #2F303A
+}
+
+.adress {
+    color: #FFFFFF
+}
+
+.adress:hover,
+:focus {
+    color: #2196F3;
+}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 7;
+    text-decoration-line: none;
+
+}
+
+.logo-two {
+    color: #FFFFFF;
+    text-decoration-line: none;
+
+}
+
+.logo-two:hover,
+:focus {
+    color: #2196F3;
+}
+
+.logo-two,
+.logo-tree {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: (31/26);
+}
+
+.logo-tree {
+    color: #2196F3;
+    text-decoration-line: none;
+}
+
+.logo-tree:hover,
+:focus {
+    color: #2196F3;
+}
