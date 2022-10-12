@@ -1,6 +1,8 @@
 :root {
     --main-color:#757575;
     --main-background-color:#FFFFFF;
+    --second-main-color:#212121;
+    --hover-color:#2196F3;
 }
 
 
@@ -13,7 +15,7 @@ body {
 
 /* header*/
 header {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
     
 
 }
@@ -33,13 +35,13 @@ header {
 }
 
 .logo-one {
-    color: #2196F3;
+    color: var(--hover-color);
     text-decoration-line: none;
 }
 
 
 .header-list {
-    color: #212121;
+    color: var(--second-main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -52,22 +54,22 @@ list-style-type: none;
 
 .title-list
 { list-style-type: none;
-background-color: #FFFFFF;
+background-color: var(--main-background-color);
 }
  
 
 
 .header-list:hover {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 .header-list:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 .link-maito,
 .link-tel {
-    color: #757575;
+    color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -76,41 +78,47 @@ background-color: #FFFFFF;
 
 .link-maito:hover,
 :focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 .link-tel:hover,
 :focus {
-    color: #2196F3;}
+    color: var(--hover-color);}
  
 
 .idea
 {   background-color: #2F303A;
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
+    color: var(--main-background-color);}
+    
+    .idea-name {font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        text-transform:uppercase;
     }
     
 .button-item {
     font-family: "Roboto", sans-serif;
-    background-color:#2196F3 ;
-    color: #FFFFFF;
+    background-color:var(--hover-color) ;
+    color: var(--main-background-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.9;
+    cursor: pointer;
     align-items: center;
-    cursor: pointer;  
+    letter-spacing: 0.06em;
+    
+   
 }
-.button-item :hover, :focus {
-background-color: #FFFFFF;
-color: #2196F3;
+
+.button-item:hover,.button-item:focus {
+background-color: var(--main-background-color);
+color: var(--hover-color);
 }
 
 .list-item
-{ color: #212121;
+{ color: var(--second-main-color);
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
@@ -123,7 +131,7 @@ font-size: 14px;
 line-height: calc(24/14);}
     
 .our-job, .our-team
-{ color: #212121;
+{ color: var(--second-main-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -133,16 +141,15 @@ line-height: 1.17;
     background-color: #F5F4FA
 }
 .our-team-list
-{ color:#212121;
+{ color:var(--second-main-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.9;
+   
     
   }
-.team-text {
-font-weight: 400;
+.team-text,.our-team-list {
 font-size: 16px;
-line-height: 1.2px;
+line-height: 1.2;
+letter-spacing: 0.03em;
 }
 
 
@@ -155,12 +162,14 @@ background-color: #2F303A
 }
 
 .adress {
-    color: #FFFFFF
+    color: var(--main-background-color)
 }
 .adress:hover,:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
-
+.adress-list {
+    font-style: normal;
+}
 .adress
 {
     font-weight: 400;
@@ -170,7 +179,7 @@ background-color: #2F303A
 
 }
 .logo-two {
-    color: #FFFFFF;
+    color: var(--main-background-color);
     text-decoration-line: none;
  
 }
@@ -183,7 +192,7 @@ background-color: #2F303A
     line-height: calc(31/26);
 }
 .logo-tree {
-    color: #2196F3;
+    color: var(--hover-color);
     text-decoration-line: none;
     }
  

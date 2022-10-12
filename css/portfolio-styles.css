@@ -1,6 +1,8 @@
 :root {
     --main-color: #757575;
+    --second-main-color:#212121;
     --main-background-color: #FFFFFF;
+    --hover-color:#2196F3;
 }
 
 
@@ -12,7 +14,7 @@ body {
 
 /* header*/
 header {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color)
 
 }
 
@@ -31,7 +33,7 @@ header {
 }
 
 .logo-one {
-    color: #2196F3;
+    color: var(--hover-color);
     text-decoration-line: none;
 }
 .title {
@@ -39,7 +41,7 @@ header {
 }
 
 .header-list {
-    color: #212121;
+    color: var(--second-main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -47,16 +49,16 @@ header {
 }
 
 .header-list:hover {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 .header-list:focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 .link-maito,
 .link-tel {
-    color: #757575;
+    color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -65,12 +67,12 @@ header {
 
 .link-maito:hover,
 :focus {
-    color: #2196F3;
+    color: var(--hover-color)
 }
 
 .link-tel:hover,
 :focus {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 /* main*/
@@ -87,27 +89,29 @@ header {
     margin: -1px;
 }
 
-.button-list :hover  {
+.button-list {
     font-family: "Roboto", sans-serif;
     background-color: #F5F4FA;
-    color: #212121;
+    color: var(--second-main-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6px;
-    text-align: center;   
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
- .button-list:focus{
-    background-color:#2196F3;
-    color: #FFFFFF;
+ .button-list:hover,.button-list:focus {
+    background-color:var(--hover-color);
+    color: var(--main-background-color);
+    
  }
 
 .title-list{
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
     list-style-type: none;
 }
 .menue-list {
-   
+    color:var(--second-main-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -129,12 +133,16 @@ footer {
 }
 
 .adress {
-    color: #FFFFFF
+    color: var(--main-background-color)
 }
 
 .adress:hover,
 :focus {
-    color: #2196F3;
+    color: var(--hover-color);
+}
+
+.adress-list {
+    font-style: normal;
 }
 
 .adress {
@@ -146,11 +154,10 @@ footer {
 }
 
 .logo-two {
-    color: #FFFFFF;
+    color: var(--main-background-color);
     text-decoration-line: none;
 
 }
-
 
 
 .logo-two,
@@ -158,11 +165,10 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: (31/26);
+    line-height: calc(31/26);
 }
 
 .logo-tree {
-    color: #2196F3;
+    color: var(--hover-color);
     text-decoration-line: none;
 }
-
