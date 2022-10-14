@@ -34,7 +34,7 @@ header {
 
 .logo-one {
     color: var(--hover-color);
-    text-decoration-line: none;
+    
 }
 .title {
     list-style-type: none
